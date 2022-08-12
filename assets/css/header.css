@@ -1,0 +1,38 @@
+.container__header{
+    display: flex;
+    margin: 4rem 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__image{
+    width: 6rem;
+}
+
+.container__list{
+    display: flex;
+    gap: 2rem;
+}
+
+.container__link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: gray;
+}
+
+.container__link:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+@media screen and (max-width: 1024px){
+    .container__header{
+        margin: 2rem 3rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .container__header{
+        margin: 2rem 1.3rem;
+    }
+}
